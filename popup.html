@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>QuickSense - Pocket Dictionary</title>
+    <!-- Add a link to your custom CSS file for styling -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="popup.js"></script>
+</head>
+
+<body>
+    <div class="fullcontent">
+        <header>
+            <h1><span class="greentext">Q</span>uick<span class="greentext">S</span>ense</h1>
+            <p class="greentext">Your Pocket Dictionary</p>
+        </header>
+        <main>
+            <div class="search-container">
+                <div id="outersearch">
+                    <button id="findMeaningButton"><img id="image" src="images/searchicon.svg" /></button>
+                    <input type="text" id="wordInput" class="greentext" placeholder="Enter a word">
+                    <button id="SpeakButton"><img src="images/speak.svg" /></button>
+                </div>
+            </div>
+            <div id="meaning" class="result-container greentext"></div>
+        </main>
+    </div>
+</body>
+
+</html>

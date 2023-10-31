@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+html {
+    background: #014D4E !important;
+    border: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: none !important;
+}
+
+.fullcontent {
+    width: 400px;
+    border: 3px solid #66cdaa;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: left;
+    font-size: 30px;
+    background: none;
+    color: #66cdaa;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 5%;
+    font-size: 1.2rem;
+    margin-left: 14%;
+}
+
+main {
+    padding: 2px;
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#wordInput {
+    background-color: inherit;
+    border: none;
+    font-size: 17px;
+    padding: 7px 10px;
+    margin: 5px;
+    height: auto;
+    outline: none;
+}
+
+#outersearch {
+    margin: 0 auto;
+    width: auto;
+    text-align: left;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #014D4E;
+    display: flex;
+    align-items: center;
+}
+
+#outersearch:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+#findMeaningButton,
+#SpeakButton {
+    font-size: 1rem;
+    background: none;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#findMeaningButton:hover {
+    background-color: #014D4E;
+}
+
+#SpeakButton:hover {
+    background-color: #66cdaa;
+}
+
+.result-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #66cdaa;
+    color: #fff;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+#image {
+    margin-top: 0.1px;
+}
+
+.greentext {
+    color: #014D4E;
+}
+
+#gap {
+    width: 14%;
+}
